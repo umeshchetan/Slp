@@ -22,6 +22,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>I am updated</h1>
       <form onSubmit={(e) => handleSubmit(e)}>
         <input type='text' name='name' id='name' placeholder='UserName'  onChange={(e) => handleChange(e)}/> <br />
         <input type='email' name='email' id='email'  placeholder='Email' onChange={(e) => handleChange(e)}/><br />
